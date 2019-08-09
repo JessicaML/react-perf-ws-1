@@ -1,0 +1,731 @@
+[
+        
+  {
+    "name": "tiger",
+    "fact1": "feline",
+    "fact2": "mainly asian",
+    "fact3": "Stripes",
+    "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/28/12/bengal-tiger.jpg?w968h681"
+
+},
+
+{
+    "name": "turtle",
+    "fact1": "reptile",
+    "fact2": "Can't run, but sure can hide",
+    "fact3": "This animal is very slow",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg"
+
+     
+},
+
+{
+    "name": "dog",
+    "fact1": "mammal",
+    "fact2": "omnivore",
+    "fact3": "Best friend",
+    "image": "https://amp.insider.com/images/5d433b8136e03c55c2108817-750-563.jpg"
+
+     
+},
+
+{
+    "name": "cat",
+    "fact1": "mammal",
+    "fact2": "feline pet",
+    "fact3": "meow!",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg"
+
+},
+
+{
+    "name": "ant",
+    "fact1": "There are many different species of this insect around the world.",
+    "fact2": "They can be brown, red and black",
+    "fact3": "They live in soil and cavities in wood and plants",
+    "image": "https://media.mnn.com/assets/images/2018/04/Tawny_crazy_ant_Nylanderia_fulva_female_worker.jpg"
+
+},
+
+{
+    "name": "cow",
+    "fact1": "Its stomach contains four separate compartments",
+    "fact2": "Their flautulence is responsible for a lot of the greenhouse gases.",
+    "fact3": "Their milk is very popular among human populations",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/250px-Cow_female_black_white.jpg"
+
+},
+
+{
+    "name": "crocodile",
+    "fact1": "It eats fish, turtle and mammals.",
+    "fact2": "lives solitarily in murky, warm and quiet waters",
+    "fact3": "This reptile was around in times of the dinousaurs",
+    "image": "https://www.abc.net.au/news/image/11368074-3x2-700x467.jpg"
+
+    
+},
+
+{
+    "name": "bird",
+    "fact1": "There are many different species of this animal, almost everywhere in the world",
+    "fact2": "often omnivore",
+    "fact3": "peak and wings",
+    "image": "https://www.hakaimagazine.com/wp-content/uploads/header-gulf-birds.jpg"
+
+},
+
+{
+    "name": "pig",
+    "fact1": "Loves belly scratches",
+    "fact2": "It's one of the smartest animals on Earth, equivalent to a 3 year old child",
+    "fact3": "oink!",
+    "image": "https://cdn.pixabay.com/photo/2018/05/09/22/44/piglet-3386356_960_720.jpg"
+},
+
+{
+    "name": "flea",
+    "fact1": "an insect",
+    "fact2": "there used to be circuses where they acted",
+    "fact3": "cats and dogs are like 24/7 buses for these tiny tiny creatures",
+    "image": "https://housemethod.com/wp-content/nmc-images/2018/02/iStock-820615074-width2400height1600.jpg"
+
+},
+{
+  "name": "tiger",
+  "fact1": "feline",
+  "fact2": "mainly asian",
+  "fact3": "Stripes",
+  "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/28/12/bengal-tiger.jpg?w968h681"
+
+},
+
+{
+  "name": "turtle",
+  "fact1": "reptile",
+  "fact2": "Can't run, but sure can hide",
+  "fact3": "This animal is very slow",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg"
+
+   
+},
+
+{
+  "name": "dog",
+  "fact1": "mammal",
+  "fact2": "omnivore",
+  "fact3": "Best friend",
+  "image": "https://amp.insider.com/images/5d433b8136e03c55c2108817-750-563.jpg"
+
+   
+},
+
+{
+  "name": "cat",
+  "fact1": "mammal",
+  "fact2": "feline pet",
+  "fact3": "meow!",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg"
+
+},
+
+{
+  "name": "ant",
+  "fact1": "There are many different species of this insect around the world.",
+  "fact2": "They can be brown, red and black",
+  "fact3": "They live in soil and cavities in wood and plants",
+  "image": "https://media.mnn.com/assets/images/2018/04/Tawny_crazy_ant_Nylanderia_fulva_female_worker.jpg"
+
+},
+
+{
+  "name": "cow",
+  "fact1": "Its stomach contains four separate compartments",
+  "fact2": "Their flautulence is responsible for a lot of the greenhouse gases.",
+  "fact3": "Their milk is very popular among human populations",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/250px-Cow_female_black_white.jpg"
+
+},
+
+{
+  "name": "crocodile",
+  "fact1": "It eats fish, turtle and mammals.",
+  "fact2": "lives solitarily in murky, warm and quiet waters",
+  "fact3": "This reptile was around in times of the dinousaurs",
+  "image": "https://www.abc.net.au/news/image/11368074-3x2-700x467.jpg"
+
+  
+},
+
+{
+  "name": "bird",
+  "fact1": "There are many different species of this animal, almost everywhere in the world",
+  "fact2": "often omnivore",
+  "fact3": "peak and wings",
+  "image": "https://www.hakaimagazine.com/wp-content/uploads/header-gulf-birds.jpg"
+
+},
+
+{
+  "name": "pig",
+  "fact1": "Loves belly scratches",
+  "fact2": "It's one of the smartest animals on Earth, equivalent to a 3 year old child",
+  "fact3": "oink!",
+  "image": "https://cdn.pixabay.com/photo/2018/05/09/22/44/piglet-3386356_960_720.jpg"
+},
+
+{
+  "name": "flea",
+  "fact1": "an insect",
+  "fact2": "there used to be circuses where they acted",
+  "fact3": "cats and dogs are like 24/7 buses for these tiny tiny creatures",
+  "image": "https://housemethod.com/wp-content/nmc-images/2018/02/iStock-820615074-width2400height1600.jpg"
+
+},
+{
+  "name": "tiger",
+  "fact1": "feline",
+  "fact2": "mainly asian",
+  "fact3": "Stripes",
+  "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/28/12/bengal-tiger.jpg?w968h681"
+
+},
+
+{
+  "name": "turtle",
+  "fact1": "reptile",
+  "fact2": "Can't run, but sure can hide",
+  "fact3": "This animal is very slow",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg"
+
+   
+},
+
+{
+  "name": "dog",
+  "fact1": "mammal",
+  "fact2": "omnivore",
+  "fact3": "Best friend",
+  "image": "https://amp.insider.com/images/5d433b8136e03c55c2108817-750-563.jpg"
+
+   
+},
+
+{
+  "name": "cat",
+  "fact1": "mammal",
+  "fact2": "feline pet",
+  "fact3": "meow!",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg"
+
+},
+
+{
+  "name": "ant",
+  "fact1": "There are many different species of this insect around the world.",
+  "fact2": "They can be brown, red and black",
+  "fact3": "They live in soil and cavities in wood and plants",
+  "image": "https://media.mnn.com/assets/images/2018/04/Tawny_crazy_ant_Nylanderia_fulva_female_worker.jpg"
+
+},
+
+{
+  "name": "cow",
+  "fact1": "Its stomach contains four separate compartments",
+  "fact2": "Their flautulence is responsible for a lot of the greenhouse gases.",
+  "fact3": "Their milk is very popular among human populations",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/250px-Cow_female_black_white.jpg"
+
+},
+
+{
+  "name": "crocodile",
+  "fact1": "It eats fish, turtle and mammals.",
+  "fact2": "lives solitarily in murky, warm and quiet waters",
+  "fact3": "This reptile was around in times of the dinousaurs",
+  "image": "https://www.abc.net.au/news/image/11368074-3x2-700x467.jpg"
+
+  
+},
+
+{
+  "name": "bird",
+  "fact1": "There are many different species of this animal, almost everywhere in the world",
+  "fact2": "often omnivore",
+  "fact3": "peak and wings",
+  "image": "https://www.hakaimagazine.com/wp-content/uploads/header-gulf-birds.jpg"
+
+},
+
+{
+  "name": "pig",
+  "fact1": "Loves belly scratches",
+  "fact2": "It's one of the smartest animals on Earth, equivalent to a 3 year old child",
+  "fact3": "oink!",
+  "image": "https://cdn.pixabay.com/photo/2018/05/09/22/44/piglet-3386356_960_720.jpg"
+},
+
+{
+  "name": "flea",
+  "fact1": "an insect",
+  "fact2": "there used to be circuses where they acted",
+  "fact3": "cats and dogs are like 24/7 buses for these tiny tiny creatures",
+  "image": "https://housemethod.com/wp-content/nmc-images/2018/02/iStock-820615074-width2400height1600.jpg"
+
+},
+{
+  "name": "tiger",
+  "fact1": "feline",
+  "fact2": "mainly asian",
+  "fact3": "Stripes",
+  "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/28/12/bengal-tiger.jpg?w968h681"
+
+},
+
+{
+  "name": "turtle",
+  "fact1": "reptile",
+  "fact2": "Can't run, but sure can hide",
+  "fact3": "This animal is very slow",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg"
+
+   
+},
+
+{
+  "name": "dog",
+  "fact1": "mammal",
+  "fact2": "omnivore",
+  "fact3": "Best friend",
+  "image": "https://amp.insider.com/images/5d433b8136e03c55c2108817-750-563.jpg"
+
+   
+},
+
+{
+  "name": "cat",
+  "fact1": "mammal",
+  "fact2": "feline pet",
+  "fact3": "meow!",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg"
+
+},
+
+{
+  "name": "ant",
+  "fact1": "There are many different species of this insect around the world.",
+  "fact2": "They can be brown, red and black",
+  "fact3": "They live in soil and cavities in wood and plants",
+  "image": "https://media.mnn.com/assets/images/2018/04/Tawny_crazy_ant_Nylanderia_fulva_female_worker.jpg"
+
+},
+
+{
+  "name": "cow",
+  "fact1": "Its stomach contains four separate compartments",
+  "fact2": "Their flautulence is responsible for a lot of the greenhouse gases.",
+  "fact3": "Their milk is very popular among human populations",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/250px-Cow_female_black_white.jpg"
+
+},
+
+{
+  "name": "crocodile",
+  "fact1": "It eats fish, turtle and mammals.",
+  "fact2": "lives solitarily in murky, warm and quiet waters",
+  "fact3": "This reptile was around in times of the dinousaurs",
+  "image": "https://www.abc.net.au/news/image/11368074-3x2-700x467.jpg"
+
+  
+},
+
+{
+  "name": "bird",
+  "fact1": "There are many different species of this animal, almost everywhere in the world",
+  "fact2": "often omnivore",
+  "fact3": "peak and wings",
+  "image": "https://www.hakaimagazine.com/wp-content/uploads/header-gulf-birds.jpg"
+
+},
+
+{
+  "name": "pig",
+  "fact1": "Loves belly scratches",
+  "fact2": "It's one of the smartest animals on Earth, equivalent to a 3 year old child",
+  "fact3": "oink!",
+  "image": "https://cdn.pixabay.com/photo/2018/05/09/22/44/piglet-3386356_960_720.jpg"
+},
+
+{
+  "name": "flea",
+  "fact1": "an insect",
+  "fact2": "there used to be circuses where they acted",
+  "fact3": "cats and dogs are like 24/7 buses for these tiny tiny creatures",
+  "image": "https://housemethod.com/wp-content/nmc-images/2018/02/iStock-820615074-width2400height1600.jpg"
+
+},
+{
+  "name": "tiger",
+  "fact1": "feline",
+  "fact2": "mainly asian",
+  "fact3": "Stripes",
+  "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/28/12/bengal-tiger.jpg?w968h681"
+
+},
+
+{
+  "name": "turtle",
+  "fact1": "reptile",
+  "fact2": "Can't run, but sure can hide",
+  "fact3": "This animal is very slow",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg"
+
+   
+},
+
+{
+  "name": "dog",
+  "fact1": "mammal",
+  "fact2": "omnivore",
+  "fact3": "Best friend",
+  "image": "https://amp.insider.com/images/5d433b8136e03c55c2108817-750-563.jpg"
+
+   
+},
+
+{
+  "name": "cat",
+  "fact1": "mammal",
+  "fact2": "feline pet",
+  "fact3": "meow!",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg"
+
+},
+
+{
+  "name": "ant",
+  "fact1": "There are many different species of this insect around the world.",
+  "fact2": "They can be brown, red and black",
+  "fact3": "They live in soil and cavities in wood and plants",
+  "image": "https://media.mnn.com/assets/images/2018/04/Tawny_crazy_ant_Nylanderia_fulva_female_worker.jpg"
+
+},
+
+{
+  "name": "cow",
+  "fact1": "Its stomach contains four separate compartments",
+  "fact2": "Their flautulence is responsible for a lot of the greenhouse gases.",
+  "fact3": "Their milk is very popular among human populations",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/250px-Cow_female_black_white.jpg"
+
+},
+
+{
+  "name": "crocodile",
+  "fact1": "It eats fish, turtle and mammals.",
+  "fact2": "lives solitarily in murky, warm and quiet waters",
+  "fact3": "This reptile was around in times of the dinousaurs",
+  "image": "https://www.abc.net.au/news/image/11368074-3x2-700x467.jpg"
+
+  
+},
+
+{
+  "name": "bird",
+  "fact1": "There are many different species of this animal, almost everywhere in the world",
+  "fact2": "often omnivore",
+  "fact3": "peak and wings",
+  "image": "https://www.hakaimagazine.com/wp-content/uploads/header-gulf-birds.jpg"
+
+},
+
+{
+  "name": "pig",
+  "fact1": "Loves belly scratches",
+  "fact2": "It's one of the smartest animals on Earth, equivalent to a 3 year old child",
+  "fact3": "oink!",
+  "image": "https://cdn.pixabay.com/photo/2018/05/09/22/44/piglet-3386356_960_720.jpg"
+},
+
+{
+  "name": "flea",
+  "fact1": "an insect",
+  "fact2": "there used to be circuses where they acted",
+  "fact3": "cats and dogs are like 24/7 buses for these tiny tiny creatures",
+  "image": "https://housemethod.com/wp-content/nmc-images/2018/02/iStock-820615074-width2400height1600.jpg"
+
+},
+{
+  "name": "tiger",
+  "fact1": "feline",
+  "fact2": "mainly asian",
+  "fact3": "Stripes",
+  "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/28/12/bengal-tiger.jpg?w968h681"
+
+},
+
+{
+  "name": "turtle",
+  "fact1": "reptile",
+  "fact2": "Can't run, but sure can hide",
+  "fact3": "This animal is very slow",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg"
+
+   
+},
+
+{
+  "name": "dog",
+  "fact1": "mammal",
+  "fact2": "omnivore",
+  "fact3": "Best friend",
+  "image": "https://amp.insider.com/images/5d433b8136e03c55c2108817-750-563.jpg"
+
+   
+},
+
+{
+  "name": "cat",
+  "fact1": "mammal",
+  "fact2": "feline pet",
+  "fact3": "meow!",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg"
+
+},
+
+{
+  "name": "ant",
+  "fact1": "There are many different species of this insect around the world.",
+  "fact2": "They can be brown, red and black",
+  "fact3": "They live in soil and cavities in wood and plants",
+  "image": "https://media.mnn.com/assets/images/2018/04/Tawny_crazy_ant_Nylanderia_fulva_female_worker.jpg"
+
+},
+
+{
+  "name": "cow",
+  "fact1": "Its stomach contains four separate compartments",
+  "fact2": "Their flautulence is responsible for a lot of the greenhouse gases.",
+  "fact3": "Their milk is very popular among human populations",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/250px-Cow_female_black_white.jpg"
+
+},
+
+{
+  "name": "crocodile",
+  "fact1": "It eats fish, turtle and mammals.",
+  "fact2": "lives solitarily in murky, warm and quiet waters",
+  "fact3": "This reptile was around in times of the dinousaurs",
+  "image": "https://www.abc.net.au/news/image/11368074-3x2-700x467.jpg"
+
+  
+},
+
+{
+  "name": "bird",
+  "fact1": "There are many different species of this animal, almost everywhere in the world",
+  "fact2": "often omnivore",
+  "fact3": "peak and wings",
+  "image": "https://www.hakaimagazine.com/wp-content/uploads/header-gulf-birds.jpg"
+
+},
+
+{
+  "name": "pig",
+  "fact1": "Loves belly scratches",
+  "fact2": "It's one of the smartest animals on Earth, equivalent to a 3 year old child",
+  "fact3": "oink!",
+  "image": "https://cdn.pixabay.com/photo/2018/05/09/22/44/piglet-3386356_960_720.jpg"
+},
+
+{
+  "name": "flea",
+  "fact1": "an insect",
+  "fact2": "there used to be circuses where they acted",
+  "fact3": "cats and dogs are like 24/7 buses for these tiny tiny creatures",
+  "image": "https://housemethod.com/wp-content/nmc-images/2018/02/iStock-820615074-width2400height1600.jpg"
+
+},
+{
+  "name": "tiger",
+  "fact1": "feline",
+  "fact2": "mainly asian",
+  "fact3": "Stripes",
+  "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/28/12/bengal-tiger.jpg?w968h681"
+
+},
+
+{
+  "name": "turtle",
+  "fact1": "reptile",
+  "fact2": "Can't run, but sure can hide",
+  "fact3": "This animal is very slow",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg"
+
+   
+},
+
+{
+  "name": "dog",
+  "fact1": "mammal",
+  "fact2": "omnivore",
+  "fact3": "Best friend",
+  "image": "https://amp.insider.com/images/5d433b8136e03c55c2108817-750-563.jpg"
+
+   
+},
+
+{
+  "name": "cat",
+  "fact1": "mammal",
+  "fact2": "feline pet",
+  "fact3": "meow!",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg"
+
+},
+
+{
+  "name": "ant",
+  "fact1": "There are many different species of this insect around the world.",
+  "fact2": "They can be brown, red and black",
+  "fact3": "They live in soil and cavities in wood and plants",
+  "image": "https://media.mnn.com/assets/images/2018/04/Tawny_crazy_ant_Nylanderia_fulva_female_worker.jpg"
+
+},
+
+{
+  "name": "cow",
+  "fact1": "Its stomach contains four separate compartments",
+  "fact2": "Their flautulence is responsible for a lot of the greenhouse gases.",
+  "fact3": "Their milk is very popular among human populations",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/250px-Cow_female_black_white.jpg"
+
+},
+
+{
+  "name": "crocodile",
+  "fact1": "It eats fish, turtle and mammals.",
+  "fact2": "lives solitarily in murky, warm and quiet waters",
+  "fact3": "This reptile was around in times of the dinousaurs",
+  "image": "https://www.abc.net.au/news/image/11368074-3x2-700x467.jpg"
+
+  
+},
+
+{
+  "name": "bird",
+  "fact1": "There are many different species of this animal, almost everywhere in the world",
+  "fact2": "often omnivore",
+  "fact3": "peak and wings",
+  "image": "https://www.hakaimagazine.com/wp-content/uploads/header-gulf-birds.jpg"
+
+},
+
+{
+  "name": "pig",
+  "fact1": "Loves belly scratches",
+  "fact2": "It's one of the smartest animals on Earth, equivalent to a 3 year old child",
+  "fact3": "oink!",
+  "image": "https://cdn.pixabay.com/photo/2018/05/09/22/44/piglet-3386356_960_720.jpg"
+},
+
+{
+  "name": "flea",
+  "fact1": "an insect",
+  "fact2": "there used to be circuses where they acted",
+  "fact3": "cats and dogs are like 24/7 buses for these tiny tiny creatures",
+  "image": "https://housemethod.com/wp-content/nmc-images/2018/02/iStock-820615074-width2400height1600.jpg"
+
+},
+{
+  "name": "tiger",
+  "fact1": "feline",
+  "fact2": "mainly asian",
+  "fact3": "Stripes",
+  "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/28/12/bengal-tiger.jpg?w968h681"
+
+},
+
+{
+  "name": "turtle",
+  "fact1": "reptile",
+  "fact2": "Can't run, but sure can hide",
+  "fact3": "This animal is very slow",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg"
+
+   
+},
+
+{
+  "name": "dog",
+  "fact1": "mammal",
+  "fact2": "omnivore",
+  "fact3": "Best friend",
+  "image": "https://amp.insider.com/images/5d433b8136e03c55c2108817-750-563.jpg"
+
+   
+},
+
+{
+  "name": "cat",
+  "fact1": "mammal",
+  "fact2": "feline pet",
+  "fact3": "meow!",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg"
+
+},
+
+{
+  "name": "ant",
+  "fact1": "There are many different species of this insect around the world.",
+  "fact2": "They can be brown, red and black",
+  "fact3": "They live in soil and cavities in wood and plants",
+  "image": "https://media.mnn.com/assets/images/2018/04/Tawny_crazy_ant_Nylanderia_fulva_female_worker.jpg"
+
+},
+
+{
+  "name": "cow",
+  "fact1": "Its stomach contains four separate compartments",
+  "fact2": "Their flautulence is responsible for a lot of the greenhouse gases.",
+  "fact3": "Their milk is very popular among human populations",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/250px-Cow_female_black_white.jpg"
+
+},
+
+{
+  "name": "crocodile",
+  "fact1": "It eats fish, turtle and mammals.",
+  "fact2": "lives solitarily in murky, warm and quiet waters",
+  "fact3": "This reptile was around in times of the dinousaurs",
+  "image": "https://www.abc.net.au/news/image/11368074-3x2-700x467.jpg"
+
+  
+},
+
+{
+  "name": "bird",
+  "fact1": "There are many different species of this animal, almost everywhere in the world",
+  "fact2": "often omnivore",
+  "fact3": "peak and wings",
+  "image": "https://www.hakaimagazine.com/wp-content/uploads/header-gulf-birds.jpg"
+
+},
+
+{
+  "name": "pig",
+  "fact1": "Loves belly scratches",
+  "fact2": "It's one of the smartest animals on Earth, equivalent to a 3 year old child",
+  "fact3": "oink!",
+  "image": "https://cdn.pixabay.com/photo/2018/05/09/22/44/piglet-3386356_960_720.jpg"
+},
+
+{
+  "name": "flea",
+  "fact1": "an insect",
+  "fact2": "there used to be circuses where they acted",
+  "fact3": "cats and dogs are like 24/7 buses for these tiny tiny creatures",
+  "image": "https://housemethod.com/wp-content/nmc-images/2018/02/iStock-820615074-width2400height1600.jpg"
+
+}
+]

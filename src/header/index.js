@@ -11,7 +11,6 @@ class Header extends Component {
         <Div/>
         <h1>
           <img src={logo} className="App-logo" alt="react-logo" />
-          react performance 101
         </h1>
       </header>
     );

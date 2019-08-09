@@ -28,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "progress-bar-webpack-plugin": "^1.12.1",
+    "webpack-bundle-analyzer": "^3.4.1"
+  }
 }

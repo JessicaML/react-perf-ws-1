@@ -1,8 +1,10 @@
-import React, { Component } from 'react'
-import Task from './task0'
-import rows from './lib/countriesAll.json'
+import React, { PureComponent } from 'react'
+import Task from './0withoutmemoorpure'
+import rows from './lib/animals.json'
+import { whyDidYouUpdate } from "why-did-you-update";
+whyDidYouUpdate(React);
 
-class App extends Component {
+class App extends PureComponent {
   state = {
     toggle: true
   }
@@ -11,25 +13,19 @@ class App extends Component {
     this.setState(prevState => ({
       toggle: !prevState.toggle,
     }));
-  }
-
+  }  
+  
   render() {
     const columns = [
       { key: 'name', name: 'Name' },
-      { key: 'capital', name: 'Capital' },
-      { key: 'flag', name: 'Flag', structure: 'image', styles: {width:'100px'}},
-      { key: 'population', name: 'Population' },
-      { key: 'topLevelDomain', name: 'Domain', structure: 'array' },
-      { key: 'numericCode', name: 'Numeric Code' },
-      { key: 'region', name: 'region'},
-      { key: 'subregion', name: 'Subregion' },
-      { key: 'demonym', name: 'Demonym' },
-      { key: 'area', name: 'Area' },
-      { key: 'borders', name: 'Borders', structure: 'array' },
+      { key: 'fact1', name: 'Fact 1' },
+      { key: 'fact2', name: 'Fact 2' },
+      { key: 'fact3', name: 'Fact 3' },
+      { key: 'image', name: 'Image', structure: 'image', styles: {width:'100px'}},
     ]
 
     return (
-      <main className='night'>
+      <main className={this.state.toggle ? 'night' : 'day'}>
         <button type="button" onClick={this.handleToggle} >
           {this.state.toggle ? 'light theme' : 'dark theme'}
         </button>
