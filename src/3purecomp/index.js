@@ -1,41 +1,54 @@
-import React, { PureComponent, memo } from 'react'
+import React, { PureComponent } from 'react'
 import { FixedSizeList as List } from 'react-window'
 import _ from 'lodash'
 const emptyStyles = {}
 
-const HeaderCell = memo(({name}) => {
-  return <div className='cell headerCell'>{name}</div>
-})
 
-const Row = memo(({style, row, columns, onCellClick, columnSelectedInThisRow, onRemoveClick}) => {
-  return (
-    <div className='row' style={style}>
-      <div className='trash cell' onClick={()=> onRemoveClick(row)}>
-        <span role='img' aria-label='remove'>🗑️</span>
+class HeaderCell extends PureComponent {
+  render() {
+    const { name } = this.props
+    
+      return  (<div className='cell headerCell'>{name}</div>)
+    }
+}
+
+class Row extends PureComponent {
+  render() {
+    const { style, row, columns, onCellClick, columnSelectedInThisRow, onRemoveClick } = this.props
+    
+      return  (
+        <div className='row' style={style}>
+          <div className='trash cell' onClick={()=> onRemoveClick(row)}>
+            <span role='img' aria-label='remove'>🗑️</span>
+          </div>
+          {columns.map(({key, structure, styles}) =>
+            <Cell
+              key={key}
+              columnKey={key}
+              rowKey={row.name}
+              name={row.name}
+              content={row[key]}
+              structure={structure}
+              isSelected={columnSelectedInThisRow === key}
+              styles={styles || emptyStyles}
+              onClick={onCellClick}
+            />)}
+        </div>
+      )
+    }
+}
+
+class Cell extends PureComponent {
+  render() {
+    const { name, content, rowKey, structure, columnKey, styles, onClick, isSelected } = this.props
+    return (
+      <div onClick = {() => onClick(rowKey, columnKey)} className={isSelected ? ' cell selected' : 'cell'}>
+        { structure === 'image' ? <img src={content} style={styles} alt={name}/> : content }
       </div>
-      {columns.map(({key, structure, styles}) =>
-        <Cell
-          key={key}
-          columnKey={key}
-          rowKey={row.name}
-          name={row.name}
-          content={row[key]}
-          structure={structure}
-          isSelected={columnSelectedInThisRow === key}
-          styles={styles || emptyStyles}
-          onClick={onCellClick}
-        />)}
-    </div>
-  )
-})
+    )    }
+}
 
-const Cell = memo(({name, content, rowKey, structure, columnKey, styles, onClick, isSelected}) => {
-  return (
-    <div onClick = {() => onClick(rowKey, columnKey)} className={isSelected ? ' cell selected' : 'cell'}>
-      { structure === 'image' ? <img src={content} style={styles} alt={name}/> : content }
-    </div>
-  )
-})
+
 
 class Table extends PureComponent {
 

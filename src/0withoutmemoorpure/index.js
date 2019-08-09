@@ -1,17 +1,13 @@
 import React, { Component } from 'react'
 import { FixedSizeList as List } from 'react-window'
 import _ from 'lodash'
-// import eventCounter from '../lib/eventCounter'
-import Map from './map'
 const emptyStyles = {}
 
 const HeaderCell = (({name}) => {
-  // eventCounter('HeaderCell')
   return <div className='cell headerCell'>{name}</div>
 })
 
 const Row = (({style, row, columns, onCellClick, columnSelectedInThisRow, onRemoveClick}) => {
-  // eventCounter('Row')
   return (
     <div className='row' style={style}>
       <div className='trash cell' onClick={()=> onRemoveClick(row)}>
@@ -79,7 +75,6 @@ class Table extends Component {
       columnSelectedInThisRow={this.state.activeRow === row.name ? this.state.activeColumn : undefined}
       onCellClick={this.setActiveCell}
       onRemoveClick={this.removeRow}
-      onMapClick={this.loadMap}
     />
   }
 
@@ -95,7 +90,6 @@ class Table extends Component {
     const {rows, activeColumn, activeRow} = this.state
     return (
       <div>
-        {this.state.activeColumn === 'name' && <Map latLng={this.getLatLng()} />}
         <div className='grid'>
           <List
             height={window.innerHeight}
