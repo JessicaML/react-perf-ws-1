@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import Task from './3purecomp'
+import Task from './4sCUROW'
 import rows from './lib/animals.json'
 import { whyDidYouUpdate } from "why-did-you-update";
 whyDidYouUpdate(React);
@@ -21,10 +21,12 @@ class App extends PureComponent {
       { key: 'fact1', name: 'Fact 1' },
       { key: 'fact2', name: 'Fact 2' },
       { key: 'fact3', name: 'Fact 3' },
-      // { key: 'image', name: 'Image', structure: 'image', styles: {width:'100px'}},
       { key: 'image', name: 'Image', structure: 'image'},
 
     ]
+
+
+    
 
     return (
       <main className={this.state.toggle ? 'night' : 'day'}>

@@ -167,6 +167,8 @@ header{
     background: rgba(251, 141, 130, 0.1)
   }
 
-  image {
-    
+  img {
+
+    width:100px;
+
   }

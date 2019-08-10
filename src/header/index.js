@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import logo from './conf-logo.png'
 import styled from 'styled-components'
 
 const Div=styled.div``
@@ -10,7 +9,6 @@ class Header extends Component {
       <header>
         <Div/>
         <h1>
-          <img src={logo} className="App-logo" alt="react-logo" />
         </h1>
       </header>
     );
