@@ -35,24 +35,27 @@ import rows from './lib/animals.json'
 //   }
 // }
 
+// const MemoApp = React.memo(() => {
+  const App = function() {
+    // Declare a new state variable, which we'll call "count"
+    const [toggle, setToggle] = useState(true);
+  
+    return (
+  
+  
+      <main className={toggle ? 'night' : 'day'}>
+      <button type="button" onClick={() => setToggle(!toggle)} >
+        {toggle ? 'light theme' : 'dark theme'}
+      </button>
+      <Task columns={columns} rows={rows} />
+    </main>
+  
+    );
+  }
+// });
 
 
 
- function App() {
-  // Declare a new state variable, which we'll call "count"
-  const [toggle, setToggle] = useState(true);
 
-  return (
-
-
-    <main className={toggle ? 'night' : 'day'}>
-    <button type="button" onClick={() => setToggle(!toggle)} >
-      {toggle ? 'light theme' : 'dark theme'}
-    </button>
-    <Task columns={columns} rows={rows} />
-  </main>
-
-  );
-}
 
 export default App
