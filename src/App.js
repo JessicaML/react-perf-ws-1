@@ -1,7 +1,7 @@
 // import React, { PureComponent } from 'react'
 import React, { useState } from 'react';
 
-import Task from './ALLMEMO'
+import Table from './ALLMEMO'
 import rows from './lib/animals.json'
 // import { whyDidYouUpdate } from "why-did-you-update";
 // whyDidYouUpdate(React);
@@ -39,7 +39,7 @@ import rows from './lib/animals.json'
   const App = function() {
     // Declare a new state variable, which we'll call "count"
     const [toggle, setToggle] = useState(true);
-  
+    console.log("rows", rows)
     return (
   
   
@@ -47,7 +47,7 @@ import rows from './lib/animals.json'
       <button type="button" onClick={() => setToggle(!toggle)} >
         {toggle ? 'light theme' : 'dark theme'}
       </button>
-      <Task columns={columns} rows={rows} />
+      <Table columns={columns} rows={rows} />
     </main>
   
     );

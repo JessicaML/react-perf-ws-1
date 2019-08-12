@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import _ from 'lodash'
 const emptyStyles = {}
 
@@ -33,44 +33,14 @@ const Cell = React.memo(({name, content, rowKey, structure, columnKey, styles, o
   return   <td onClick = {() => onClick(rowKey, columnKey)} className={isSelected ? ' cell selected' : 'cell'}>
   { structure === 'image' ? <img src={content} style={styles} alt={name}/> : content }
 </td>
-})
+});
 
 
 
-class Table extends Component {
 
-  state = {
-    rows: this.props.rows,
-  }
-
-  renderRow = ({index, style}) => {
-    if (index === 0) {
-      return this.renderHeader()
-    }
-
-    const row = this.state.rows[index-1]
-    return <Row
-      style={style}
-      key={row.name}
-      rowId={row.name}
-      row={row}
-      columns={this.props.columns}
-    />
-  }
-
-  renderHeader(){
-    return <div className='row header'>
-      {_.map(this.props.columns, column => <HeaderCell key={column.key} name={column.name}/>) }
-    </div>
-  }
+const Table = function({columns, rows, index}) {
 
 
-  
-
-  render() {
-    const {columns} =this.props
-
-    const {rows} = this.state
     return (
       <table>
         <thead>
@@ -79,19 +49,42 @@ class Table extends Component {
           </tr>
         </thead>
         <tbody>
-        {rows.map((row, rowIdx)=>
-          <Row
+        {rows.map((row, rowIdx)=> {
+            renderRow(columns, row, rowIdx)
+
+          return (<Row
             key={rowIdx}
             row={row}
             columns={columns}
             rowIdx={rowIdx}
-            onCellClick={this.setActiveCell}
-          />
+          />)
+        }
         )}
         </tbody>
       </table>
     )
-  }
 }
 
+
 export default Table
+
+
+const renderRow = function ( columns, row, rowIdx){ 
+  console.log("rowIdx", rowIdx)
+
+  if (rowIdx === 0) {
+    console.log("renderHeader", rowIdx)
+
+     renderHeader(columns)
+  } 
+
+}
+
+
+const renderHeader = function(columns){
+  return <div className='row header'>
+    {_.map(columns, column => <HeaderCell key={column.key} name={column.name}/>) }
+  </div>
+};
+
+
