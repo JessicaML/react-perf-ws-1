@@ -3,48 +3,38 @@ import _ from 'lodash'
 const emptyStyles = {}
 
 
-class HeaderCell extends Component {
-  render() {
-    const { name } = this.props
-      return  (<th className='cell headerCell'>{name}</th>)
-    }
-}
-
-class Row extends Component {
 
 
-  render() {
-    const { style, row, columns, onCellClick, columnSelectedInThisRow } = this.props
-      return  (
-        <tr className='row' style={style}>
+const HeaderCell = React.memo(({name}) => {
+  return <div className='cell headerCell'>{name}</div>
+})
+
+
+const Row = React.memo(({style, row, columns, onCellClick, columnSelectedInThisRow}) => {
+  return  <tr className='row' style={style}>
    
-          {columns.map(({key, structure, styles}) =>
-            <Cell
-              key={key}
-              columnKey={key}
-              rowKey={row.name}
-              name={row.name}
-              content={row[key]}
-              structure={structure}
-              isSelected={columnSelectedInThisRow === key}
-              styles={styles || emptyStyles}
-              onClick={onCellClick}
-            />)}
-        </tr>
-      )
-    }
-}
+  {columns.map(({key, structure, styles}) =>
+    <Cell
+      key={key}
+      columnKey={key}
+      rowKey={row.name}
+      name={row.name}
+      content={row[key]}
+      structure={structure}
+      isSelected={columnSelectedInThisRow === key}
+      styles={styles || emptyStyles}
+      onClick={onCellClick}
+    />)}
+</tr>
+})
 
-class Cell extends Component {
-  render() {
-    const { name, content, rowKey, structure, columnKey, styles, onClick, isSelected } = this.props
-    return (
-      <td onClick = {() => onClick(rowKey, columnKey)} className={isSelected ? ' cell selected' : 'cell'}>
-        { structure === 'image' ? <img src={content} style={styles} alt={name}/> : content }
-      </td>
-    )
-  }
-}
+
+const Cell = React.memo(({name, content, rowKey, structure, columnKey, styles, onClick, isSelected}) => {
+  return   <td onClick = {() => onClick(rowKey, columnKey)} className={isSelected ? ' cell selected' : 'cell'}>
+  { structure === 'image' ? <img src={content} style={styles} alt={name}/> : content }
+</td>
+})
+
 
 
 class Table extends Component {
@@ -73,6 +63,9 @@ class Table extends Component {
       {_.map(this.props.columns, column => <HeaderCell key={column.key} name={column.name}/>) }
     </div>
   }
+
+
+  
 
   render() {
     const {columns} =this.props
